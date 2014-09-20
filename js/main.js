@@ -1,5 +1,3 @@
-
-
 // Document ready
 $(function() {
 
@@ -130,3 +128,15 @@ $(function () {
 });
 
 
+
+/*-----------------------------------------------------------------------------------*/
+/*  05. PROJECTS PORTFOLIO HOVER
+/*-----------------------------------------------------------------------------------*/
+
+$(function () {
+  var film_roll = new FilmRoll({
+      container: '.carousel',
+      pager: false,
+      prev: false,
+    });
+});

@@ -156,8 +156,8 @@ p a:hover {
 
 .buttom {
 	margin-top: 200px;
-	background: #a0cac0;
-    border-bottom: 4px solid #68a697;
+	background: #3498db;
+    border-bottom: 4px solid #2980b9;
     color: #FFFFFF;
     font-family: 'latolight', sans-serif;
     text-transform: uppercase;
@@ -629,9 +629,7 @@ nav {
 	background: #FFF;
 	border-bottom: 4px solid #e5e5e5;
 	margin-bottom: 20px;
-	padding:20px;
-      width: 100%;
-}
+	padding:20px;}
 
 
 
@@ -769,8 +767,8 @@ nav {
 	    cursor: pointer;
 	    font-size: 16px;
 	    color:#FFF;
-	    background: #a0cac0;
-	    border-bottom: 4px solid #68a697;
+	    background: #3498db;
+	    border-bottom: 4px solid #2980b9;
 	    -webkit-transition: all 0.2s ease-in-out;
 	    -moz-transition: all 0.2s ease-in-out;
 	    -ms-transition: all 0.2s ease-in-out;
@@ -908,7 +906,7 @@ nav {
 	/* Showing Well the background */
 
 	#header {
-	background: url('../../img/bgtesr.jpg')30% 100% no-repeat fixed !important;
+	background: url('../../img/big-top.jpg')30% 100% no-repeat fixed !important;
 	background-position:center;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -918,7 +916,6 @@ nav {
 
 	/* Not Showing the Navigation */
 
-	.cbp-af-header {display: none;}
 
 	/* Align Center the interblock Text & Button */
 
@@ -966,7 +963,7 @@ nav {
 
     /* Service Settings */
 
-    #schedule .service {width:100%; margin-bottom: 2%; margin-top: 2%;}
+    #schedule .service {margin-bottom: 2%; margin-top: 2%;}
 
     /* Align center the Title of each Service */
 
@@ -1018,4 +1015,10 @@ and (-webkit-min-device-pixel-ratio: 1)  {
 }
 
 
+/* SPONSORS ================================================== */
 
+#sponsors .film_roll_prev, .film_roll_next {
+	background: transparent!important;
+	border: 0 none!important;
+	color: #4d4c4c!important;
+}
