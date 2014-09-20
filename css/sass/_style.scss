@@ -34,7 +34,7 @@
 
 }
 * {
-  outline: 0 none;
+  outline: 0 none!important;
 }
 
 @-webkit-keyframes Anim { from { opacity:0; } to { opacity:1; } }
