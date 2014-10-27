@@ -1,7 +1,7 @@
 {
-  "name": "neat-starter-template",
-  "version": "0.1.0",
-  "description": "A boilerplate containing HTML5 boilerplate, bourbon, neat and parts of pure.css",
+  "name": "drupalhagen",
+  "version": "0.0.1",
+  "description": "Drupal theme for drupalhagen.dk",
   "main": "gruntfile.js",
   "directories": {
     "doc": "doc"
@@ -27,15 +27,8 @@
     "type": "git",
     "url": "https://github.com/silo/drupalhagen"
   },
-  "keywords": [
-    "yeoman-generator",
-    "bourbon",
-    "neat",
-    "pure",
-    "boilerplate"
-  ],
   "author": "Silo",
-  "license": "BSD",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/silo/drupalhagen/issues"
   }
